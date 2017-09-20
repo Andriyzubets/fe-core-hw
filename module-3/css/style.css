@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+
+#wrapper {
+	max-width: 480px;
+	box-shadow: 0 0 10px 4px gray;
+	width: 100%;
+	margin: 5px auto;
+}
+.first, .second, .third {
+	padding: 20px 4.2% 0px 4.2%;
+}
+h1 {
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-transform: uppercase;
+	color: #263555;
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.plane {
+	width: 100%;
+	height: auto;
+	margin: 20px auto;
+}
+h3 {
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	color: #50586d;
+}
+.inner_text {
+	font-size: 12px;
+	color: #6f6f6f;
+	margin-bottom: 20px;
+}
+.just {
+	text-align: justify;
+}
+.inner_sec {
+	margin: 0 8.2%;
+}
+.list {
+	padding: 0px 4.2% 30px 4.2%;
+}
+.left_ul {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 30px;
+	font-size: 14px;
+	list-style-type: none;
+	color: #50586d;
+}
+.right_ul {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 50px;
+	font-size: 14px;
+	list-style-type: none;
+	color: #50586d;
+}
