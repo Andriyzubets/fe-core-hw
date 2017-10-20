@@ -1,0 +1,22 @@
+.wrapper {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.first {
+	min-height: 238px;
+}
+.content {
+	background: #fbf281;
+}
+.side-bar {
+	background: #b8e986;
+}
+.second > div {
+	min-height: 111px;
+}
+.grid1, .grid3 {
+	background: #f4bd61;
+}
+.grid2 {
+	background: #f0344b;
+}
