@@ -1,0 +1,292 @@
+* {
+	padding: 0!;
+	margin: 0;
+}
+body {
+	background-image: url(../img/bgimg.jpg);
+	background-size: cover;
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+.wrapper {
+	max-width: 1024px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+.header {
+	width: 98.5%;
+}
+.main-menu {
+	height: 240px;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+}
+.in-logo-smp {
+	width: 92.78%;
+	height: 60.32%;
+	text-align: center;
+	background: white;
+	border-radius: 100%;
+	text-transform: uppercase;
+	font-family: 'Dorsa';
+	color: #263555;
+	font-size: 33.24px;
+	line-height: 17.2vw;
+	position: relative;
+	padding: 0;
+	margin: 22px auto;
+}
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu a {
+	text-decoration: none;
+	color: #fff;
+	font-size: .85em;	
+	
+}
+a:hover {
+	color: #263555;
+}
+.menu li:hover > ul {
+	display: block;
+}
+.submenu {
+	display: none;
+	z-index: 100;
+	background: white;
+	position: absolute;
+	border-radius: 3px;
+	margin-top: 10px;
+	top: 1%;
+	padding: 0;
+	border-radius: 3px;
+	margin-top: 32px;
+	min-width: 45px;
+	padding: 5px 0;
+	left: 23%;
+	top: 0;
+}
+.submenu:before {
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	background: #fff;
+	content: "";
+	transform: rotate(45deg);
+	left: 45%;
+	top: -2%;
+}
+.submenu a {
+	color: #8990a0;
+	font-size: .63em;
+}
+.submenu > li {
+	display: block;
+	text-align: center;
+	height: auto;
+	line-height: .85em;
+}
+.content-gallery {
+	width: 100%;
+	background: #fff;
+	padding: 8%;
+}
+.gal {
+	height: 45vw;
+	margin: 5% auto;
+}
+.gallery-img:hover {
+	filter: brightness(.5);
+}
+.gallery div:hover .zoom-img {
+	display: block;
+}
+.gallery-img {
+	width: 100%;
+	height: 100%;
+}
+.zoom-img {
+	display: none;
+	position: absolute;
+	top: 45%;
+	left: 45%;
+}
+h2 {
+	text-transform: uppercase;
+	color: #263555;
+	font-size: 25px;
+	font-weight: 500;
+	margin: 24px 0 20px;
+}
+footer {
+	min-height: 130px;
+	width: 100%;
+	background: #30455b;
+	font-size: 16px;
+	padding: 23px 0;
+}
+.footer-map, .footer-cont {
+	text-decoration: none;
+	text-transform: uppercase;
+	list-style-type: none;
+	padding: 0;
+	color: #ffffff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-cont {
+	margin-left: 13%;
+}
+.footer-link, .footer-link a {
+	text-decoration: none;
+	padding: 0;
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+.footer-connect a {
+	font-size: 10px;
+	font-family: 'arial', sans-serif;
+	font-weight: 100;
+	color: #fff;
+	text-transform: none;
+
+}
+.footer-connect:last-child {
+	text-align: center;
+}
+.footer-connect {
+	padding: 0 0 0 3%;
+}
+/*Кнопка to top*/
+figure {
+	width: 1.65em;
+	height: 1.65em;
+	border-radius: 100%;
+	background: #38afe5;
+	bottom: 50vw;
+	right: 2vw;
+	position: fixed;
+}
+figure:before {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	background: #cbc6c6;
+	content: "";
+	transform: rotate(45deg);
+	left: 8px;
+	top: 10px;
+	background: inherit;
+	border-left: 1px solid #fff;
+	border-top: 1px solid #fff;
+}
+.social-links {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0 12px;
+}
+.social-links a:hover {
+	opacity: 0.7;
+}
+.copyright-text {
+	text-align: center;
+	font-family: arial;
+	font-size: 9px;
+	color: #fff;
+}
+
+@media (min-width: 480px)   {
+	.in-logo-smp {
+		width: 92.78%;
+		height: 60.32%;
+	}
+}
+@media (min-width: 768px) {
+	.in-logo-smp {
+		width: 87.02%;
+		height: 78.3%;
+		font-size: 43.6px;
+		line-height: 14.2vw;
+		margin: 20px auto 0;
+	}
+	.footer {
+		padding: 23px 0px 23px 12%;
+	}
+	.main-menu {
+		font-size: 24px;
+	}
+	.main-menu {
+		height: 230px;
+	}
+	.submenu {
+		left: 33%;
+		top: 23%;
+	}
+	.gal {
+		height: 23.18vw;
+		margin: 2.8% auto;
+	}
+	.footer-cont {
+		margin-left: 0;
+		flex-direction: column;
+	}
+	.tel-con {
+		display: inline-block;
+	}
+	.footer-connect:last-child {
+		text-align: left; 
+	}
+	.footer-connect {
+		padding: 0;
+	}
+}
+@media (min-width: 1024px) {
+	.in-logo-smp {
+		height: 83.3%;
+		font-size: 59.58px;
+	}
+	.gal {
+		height: 15vw;
+	}
+	.header {
+		width: 100%;
+	}
+	.menu {
+		align-items: center;
+	}
+	.menu a {
+		font-size: 28px;
+	}
+	.submenu a {
+		color: #8990a0;
+		font-size: 20px;
+	}
+	.submenu {
+		left: 14%;
+		width: 65px;
+	}
+	h2 {
+    font-size: 28px;
+	}
+	.footer-link, .footer-link a {
+    font-size: 16px;
+ 	}
+ 	.footer-connect a {
+    font-size: 12px;
+	}
+	.social-links {
+    justify-content: space-around;
+}
+.social-links img {
+	width: 40px;
+}
+.copyright-text {
+    font-size: 12px;
+    }
+}
