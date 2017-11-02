@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.box-with-bg {
+	width: 600px;
+	height: 300px;
+	background: url('../img/palm.jpf') no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 2) {
+	.box-with-bg {
+		background: url('../img/palm.jpg') no-repeat;
+	}
+
+}
+.fb {
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/fb.svg);
+	background-size: cover;
+	display: inline-block;
+}
+.tw {
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/tw.svg);
+	display: inline-block;
+	background-size: cover;
+}
+.gh {
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/gh.svg);
+	display: inline-block;
+	background-size: cover;
+}
+.goo {
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/goo.svg);
+	display: inline-block;
+	background-size: cover;
+}
