@@ -1,0 +1,18 @@
+.footer-social {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0 auto;
+  background: none; }
+  .footer-social__item {
+    width: 2.1em;
+    height: 2.1em; }
+  .footer-social a:hover img {
+    -webkit-filter: brightness(90%);
+    filter: brightness(90%); }
