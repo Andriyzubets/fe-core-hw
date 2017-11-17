@@ -189,6 +189,9 @@ a:hover {
 	width: 50%;
 	
 }
+.descr {
+	width: 100%;
+}
 .first {
 	background-image: url(../img/venice.jpg);
 	background-size: cover;
